@@ -57,10 +57,17 @@ const Nav = () => {
       </div>
       <div className="nav-social-links fade-in-image">
         <div className="nav__lightmode fade-in-image">
-          <LightModeIcon
-            onClick={() => setLightMode(!lightMode)}
-            style={lightMode ? { color: "black" } : { color: "grey" }}
-          />
+          {lightMode ? (
+            <DarkModeIcon
+              onClick={() => setLightMode(!lightMode)}
+              style={lightMode ? { color: "#111" } : { color: "grey" }}
+            />
+          ) : (
+            <LightModeIcon
+              onClick={() => setLightMode(!lightMode)}
+              style={lightMode ? { color: "#111" } : { color: "grey" }}
+            />
+          )}
         </div>
         <div className="nav-social-links__line fade-in-image"></div>
         <a className="nav__social-link" href="https://github.com/colinstoutt">
