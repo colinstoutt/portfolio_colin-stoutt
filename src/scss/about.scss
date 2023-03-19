@@ -11,15 +11,15 @@
     margin: 1rem 0;
   }
   &__section-about {
-    width: 500px;
+    width: 425px;
   }
   &__section-skills {
     width: 425px;
-    margin-top: 20rem;
+    margin-top: 15rem;
     &-skill {
       display: inline-block;
-      color: black;
-      background-color: white;
+      color: white;
+      font-weight: 200;
       padding: 0.5rem 1rem;
       margin: 0.5rem 0.5rem;
       border-radius: 10px;
