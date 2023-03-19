@@ -1,0 +1,31 @@
+.about {
+  width: 850px;
+  margin: 6rem auto;
+  display: flex;
+
+  & p {
+    color: white;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 1rem 0;
+  }
+  &__section-about {
+    width: 500px;
+  }
+  &__section-skills {
+    width: 425px;
+    margin-top: 20rem;
+    &-skill {
+      display: inline-block;
+      color: black;
+      background-color: white;
+      padding: 0.5rem 1rem;
+      margin: 0.5rem 0.5rem;
+      border-radius: 10px;
+      &:first-of-type {
+        margin-top: 1rem;
+      }
+    }
+  }
+}
