@@ -1,6 +1,9 @@
 import "../scss/App.scss";
-import "../scss/Index.scss";
 import "../scss/Navbar.scss";
+import "../scss/index.scss";
+import "../scss/about.scss";
+import "../scss/projects.scss";
+import "../scss/contact.scss";
 
 import Layout from "@/components/Layout";
 
