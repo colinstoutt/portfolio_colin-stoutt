@@ -1,6 +1,6 @@
 import "../scss/App.scss";
 import "../scss/Navbar.scss";
-import "../scss/index.scss";
+import "../scss/Index.scss";
 import "../scss/about.scss";
 import "../scss/projects.scss";
 import "../scss/contact.scss";
