@@ -29,6 +29,13 @@ video {
   display: block;
   max-width: 100%;
 }
+
+.heading {
+  color: white;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
