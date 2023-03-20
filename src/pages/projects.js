@@ -56,8 +56,8 @@ const projects = () => {
       <div className="projects__section-project">
         <h2 className="projects__section-project-title">Team Manager</h2>
         <p className="projects__section-project-desc-mid">
-          A React app to help manage a sports team's players, recruits, and game
-          schedule. Includes authentication using Javascript Web Tokens.
+          A React app to help manage a sports team&apos;s players, recruits, and
+          game schedule. Includes authentication using Javascript Web Tokens.
         </p>
         <ul className="projects__section-project-tech-mid">
           <li className="projects__section-project-tech-mid">React</li>
@@ -101,9 +101,9 @@ const projects = () => {
           Another Cookbook App
         </h2>
         <p className="projects__section-project-desc">
-          Another cookbook app. Like there isn't enough already. I built this
-          app with the main goal of learning more about NextJS, Typescript, and
-          styling with a mobile first approach.
+          Another cookbook app. Like there isn&apos;t enough already. I built
+          this app with the main goal of learning more about NextJS, Typescript,
+          and styling with a mobile first approach.
         </p>
         <ul className="projects__section-project-tech">
           <li className="projects__section-project-tech">NextJS</li>
