@@ -39,6 +39,7 @@ const projects = () => {
           alt="Golfers Log App"
           width={560}
           height={300}
+          unoptimized
           style={{
             position: "absolute",
             borderRadius: "10px",
@@ -81,6 +82,7 @@ const projects = () => {
           alt="Team Manager App"
           width={560}
           height={350}
+          unoptimized
           style={{
             position: "absolute",
             borderRadius: "10px",
@@ -126,6 +128,7 @@ const projects = () => {
           alt="Golfers Log App"
           width={560}
           height={300}
+          unoptimized
           style={{
             position: "absolute",
             borderRadius: "10px",
