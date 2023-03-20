@@ -33,10 +33,24 @@ const projects = () => {
             <p>Live Link</p>
           </a>
         </div>
-        <img
+        <Image
           src="https://i.imgur.com/kPy8oYi.png"
           className="projects__section-project-image"
           alt="Golfers Log App"
+          width={560}
+          height={300}
+          unoptimized
+          style={{
+            position: "absolute",
+            borderRadius: "10px",
+            minWidth: "35rem",
+            maxWidth: "10rem",
+            opacity: "90%",
+            zIndex: "-1",
+            boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
+            right: "0",
+            top: "-2rem",
+          }}
         />
       </div>
       <div className="projects__section-project">
@@ -62,10 +76,24 @@ const projects = () => {
             <p>Live Link</p>
           </a>
         </div>
-        <img
+        <Image
           src="https://i.imgur.com/XJ1tgfy.png"
           className="projects__section-project-image-mid"
-          alt="Golfers Log App"
+          alt="Team Manager App"
+          width={560}
+          height={350}
+          unoptimized
+          style={{
+            position: "absolute",
+            borderRadius: "10px",
+            minWidth: "35rem",
+            maxWidth: "10rem",
+            opacity: "90%",
+            zIndex: "-1",
+            boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
+            right: "0",
+            top: "8.5rem",
+          }}
         />
       </div>
       <div className="projects__section-project">
@@ -94,10 +122,24 @@ const projects = () => {
             <p>Live Link</p>
           </a>
         </div>
-        <img
+        <Image
           src="https://i.imgur.com/kPy8oYi.png"
           className="projects__section-project-image"
           alt="Golfers Log App"
+          width={560}
+          height={300}
+          unoptimized
+          style={{
+            position: "absolute",
+            borderRadius: "10px",
+            minWidth: "35rem",
+            maxWidth: "10rem",
+            opacity: "90%",
+            zIndex: "-1",
+            boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
+            right: "0",
+            top: "-2rem",
+          }}
         />
       </div>
     </main>
