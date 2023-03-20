@@ -18,9 +18,6 @@ html {
   font-family: "League Spartan", sans-serif;
   background-color: #111;
 }
-body {
-  min-height: 100vh;
-}
 
 img,
 picture,
@@ -29,11 +26,48 @@ video {
   display: block;
   max-width: 100%;
 }
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: #111;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #373737;
+  border-radius: 50px;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #111;
+}
+
+.container {
+  max-width: 950px;
+  margin: 10rem auto;
+  padding: 2rem 2.5rem;
+}
 .heading {
   color: white;
-  font-size: 3rem;
-  font-weight: 500;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 6rem;
+}
+.line {
+  height: 3px;
+  width: 100px;
+  position: absolute;
+  background-image: linear-gradient(
+    90deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(45, 253, 153, 1) 100%
+  );
 }
 
 @keyframes fadeIn {
