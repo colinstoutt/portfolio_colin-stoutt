@@ -65,13 +65,13 @@ const Nav = () => {
         </div>
         <div className="nav-social-links__line fade-in-image"></div>
         <a className="nav__social-link" href="https://github.com/colinstoutt">
-          <GitHubIcon sx={{ fontSize: "2.5rem" }} />
+          <GitHubIcon sx={{ fontSize: "2rem" }} />
         </a>
         <a
           className="nav__social-link nav__social-link-linkedin"
           href="https://www.linkedin.com/in/colin-stoutt/"
         >
-          <LinkedInIcon sx={{ fontSize: "2.5rem", marginLeft: "0.5rem" }} />
+          <LinkedInIcon sx={{ fontSize: "2rem", marginLeft: "0.5rem" }} />
         </a>
         <div className="nav-social-links__line fade-in-image"></div>
       </div>
