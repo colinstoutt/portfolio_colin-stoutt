@@ -117,7 +117,7 @@ const projects = () => {
             <CodeRoundedIcon style={{ fontSize: "1.2rem" }} />
             <p>Code</p>
           </a>
-          <a href="">
+          <a href="https://capstone-cookbook-application.netlify.app/">
             <LaunchRoundedIcon style={{ fontSize: "1rem" }} />
             <p>Live Link</p>
           </a>
