@@ -9,7 +9,7 @@ const contact = () => {
       <form
         className="contact__form"
         target="_blank"
-        action="https://formsubmit.co/d9a01c15dd308f7a4eb313987889a2ae"
+        action="https://formsubmit.co/colin.stoutt22@gmail.com"
         method="POST"
       >
         {/* honeypot */}
