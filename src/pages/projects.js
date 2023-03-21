@@ -123,7 +123,7 @@ const projects = () => {
           </a>
         </div>
         <Image
-          src="https://i.imgur.com/kPy8oYi.png"
+          src="https://i.imgur.com/2yQGxSN.png"
           className="projects__section-project-image"
           alt="Golfers Log App"
           width={560}
