@@ -56,13 +56,13 @@ const Nav = () => {
         </div>
       </div>
       <div className="nav-social-links fade-in-image">
-        <div className="nav__lightmode fade-in-image">
+        {/* <div className="nav__lightmode fade-in-image">
           {lightMode ? (
             <DarkModeIcon onClick={() => setLightMode(!lightMode)} />
           ) : (
             <LightModeIcon onClick={() => setLightMode(!lightMode)} />
           )}
-        </div>
+        </div> */}
         <div className="nav-social-links__line fade-in-image"></div>
         <a className="nav__social-link" href="https://github.com/colinstoutt">
           <GitHubIcon sx={{ fontSize: "2rem" }} />

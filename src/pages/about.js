@@ -8,8 +8,8 @@ const about = () => {
           A little about me<div className="line"></div>
         </h1>
         <p>
-          My name is Colin Stoutt, I’m a software developer with a creative edge
-          and a strong background in customer service. I recently graduated from
+          My name is Colin Stoutt, I’m a web developer with a creative edge and
+          a strong background in customer service. I recently graduated from
           General Assemblys Software Engineering Immersive.
         </p>
       </section>
