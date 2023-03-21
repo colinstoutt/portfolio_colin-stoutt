@@ -24,11 +24,11 @@ const projects = () => {
           <li className="projects__section-project-tech">Heroku</li>
         </ul>
         <div className="projects__section-project-links">
-          <a href="">
+          <a href="https://github.com/colinstoutt/Golfers-Log">
             <CodeRoundedIcon style={{ fontSize: "1.2rem" }} />
             <p>Code</p>
           </a>
-          <a href="">
+          <a href="https://my-golf-log.herokuapp.com/tracker">
             <LaunchRoundedIcon style={{ fontSize: "1rem" }} />
             <p>Live Link</p>
           </a>
@@ -67,7 +67,7 @@ const projects = () => {
           <li className="projects__section-project-tech-mid">Netlify</li>
         </ul>
         <div className="projects__section-project-links-mid">
-          <a href="">
+          <a href="https://github.com/colinstoutt/team-manager">
             <CodeRoundedIcon style={{ fontSize: "1.2rem" }} />
             <p>Code</p>
           </a>
@@ -113,7 +113,7 @@ const projects = () => {
           <li className="projects__section-project-tech">Vercel</li>
         </ul>
         <div className="projects__section-project-links">
-          <a href="">
+          <a href="https://github.com/colinstoutt/nextJs-ts-cookbook">
             <CodeRoundedIcon style={{ fontSize: "1.2rem" }} />
             <p>Code</p>
           </a>
