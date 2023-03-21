@@ -20,7 +20,7 @@ const contact = () => {
         <input
           type="hidden"
           name="_next"
-          value={"https://portfolio-nextjs-silk.vercel.app/success"}
+          value={"https://colinstoutt.vercel.app/success"}
         />
         <div>
           <div>
