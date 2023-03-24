@@ -10,8 +10,7 @@ const about = () => {
         <p>
           Hi, I&apos;m Colin Stoutt, a web developer who combines technical
           skills with a creative mindset. I&apos;m a recent graduate of General
-          Assembly&apos;s Software Engineering Immersive program, where I gained
-          expertise in developing innovative web applications.
+          Assembly&apos;s Software Engineering Immersive program.
         </p>
       </section>
       <section className="about__section-skills">
