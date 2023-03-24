@@ -64,7 +64,6 @@ const projects = () => {
           <li className="projects__section-project-tech-mid">Django</li>
           <li className="projects__section-project-tech-mid">PostgreSQL</li>
           <li className="projects__section-project-tech-mid">JWT</li>
-          <li className="projects__section-project-tech-mid">Netlify</li>
         </ul>
         <div className="projects__section-project-links-mid">
           <a href="https://github.com/colinstoutt/team-manager">
@@ -97,20 +96,17 @@ const projects = () => {
         />
       </div>
       <div className="projects__section-project">
-        <h2 className="projects__section-project-title">
-          Another Cookbook App
-        </h2>
+        <h2 className="projects__section-project-title">Cookbook App</h2>
         <p className="projects__section-project-desc">
-          Another cookbook app. Like there isn&apos;t enough already. I built
-          this app with the main goal of learning more about NextJS, Typescript,
-          and styling with a mobile first approach.
+          I built this app with the main goal of learning more about NextJS,
+          server-side-rendering, Typescript, and styling with a mobile first
+          approach.
         </p>
         <ul className="projects__section-project-tech">
           <li className="projects__section-project-tech">NextJS</li>
           <li className="projects__section-project-tech">React</li>
           <li className="projects__section-project-tech">Typescript</li>
           <li className="projects__section-project-tech">MongoDB</li>
-          <li className="projects__section-project-tech">Vercel</li>
         </ul>
         <div className="projects__section-project-links">
           <a href="https://github.com/colinstoutt/nextJs-ts-cookbook">
