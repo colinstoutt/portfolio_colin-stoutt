@@ -10,7 +10,9 @@ const projects = () => {
         Some things I built<div className="line"></div>
       </h1>
       <div className="projects__section-project">
-        <h2 className="projects__section-project-title">Golfers Log</h2>
+        <h2 className="projects__section-project-title">
+          Digital Golf Scorecard
+        </h2>
         <p className="projects__section-project-desc">
           A web app for keeping track of your rounds of golf. Create, edit, and
           view all of your rounds in one place to help track your progress.
