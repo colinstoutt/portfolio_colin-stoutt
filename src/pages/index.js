@@ -1,3 +1,7 @@
+import Contact from "@/components/Contact";
+import Hero from "@/components/Hero";
+import Projects from "@/components/Projects";
+import About from "@/components/about";
 import Head from "next/head";
 
 export default function Index() {
@@ -8,10 +12,11 @@ export default function Index() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="index">
-        <h1 className="index__name fade-in-image">colinStoutt</h1>
-        <h1 className="index__title fade-in-image">softwareDeveloper</h1>
-      </main>
+      {/* components */}
+      <Hero />
+      <About />
+      <Projects />
+      <Contact />
     </>
   );
 }
