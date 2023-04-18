@@ -1,55 +1,40 @@
-import { Visibility } from "@mui/icons-material";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import DarkModeIcon from "@mui/icons-material/DarkMode";
-import LightModeIcon from "@mui/icons-material/LightMode";
-import { color } from "@mui/system";
-import Link from "next/link";
-import { useRouter } from "next/router";
-import { useState } from "react";
-import { render } from "react-dom";
+import { Link } from "react-scroll";
 
 const Nav = () => {
-  const router = useRouter();
-  const [lightMode, setLightMode] = useState(false);
-
   return (
     <>
       <div className="nav">
-        <Link className="nav__name-link fade-in-image" href="/">
-          <span className="nav__name">CS</span>
-        </Link>
+        <span className="nav__name fade-in-image">CS</span>
         <div>
           <Link
-            href="/about"
+            to="about"
             className="nav__link fade-in-image"
-            style={
-              router.route === "/about"
-                ? { color: "white" }
-                : { color: "rgb(172, 172, 172)" }
-            }
+            spy={true}
+            smooth={true}
+            offset={-220}
+            duration={500}
           >
             About
           </Link>
           <Link
-            href="/projects"
+            to="projects"
             className="nav__link fade-in-image"
-            style={
-              router.route === "/projects"
-                ? { color: "white" }
-                : { color: "rgb(172, 172, 172)" }
-            }
+            spy={true}
+            smooth={true}
+            offset={-200}
+            duration={500}
           >
             Projects
           </Link>
           <Link
-            href="/contact"
+            to="contact"
             className="nav__link fade-in-image"
-            style={
-              router.route === "/contact"
-                ? { color: "white" }
-                : { color: "rgb(172, 172, 172)" }
-            }
+            spy={true}
+            smooth={true}
+            offset={-80}
+            duration={500}
           >
             Contact
           </Link>
