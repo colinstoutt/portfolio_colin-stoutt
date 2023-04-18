@@ -45,23 +45,27 @@ const About = () => {
 
           <span
             className="about__section-skills-skill"
-            style={{ border: "1px solid #3b78a8" }}
-          >
-            Python
-          </span>
-
-          <span
-            className="about__section-skills-skill"
             style={{ border: "1px solid #e9d54d" }}
           >
             Javascript
           </span>
-
+          <span
+            className="about__section-skills-skill"
+            style={{ border: "1px solid #5dd0ef" }}
+          >
+            React
+          </span>
           <span
             className="about__section-skills-skill"
             style={{ border: "1px solid #2f75c0 " }}
           >
             Typescript
+          </span>
+          <span
+            className="about__section-skills-skill"
+            style={{ border: "1px solid #3b78a8" }}
+          >
+            Python
           </span>
           <span
             className="about__section-skills-skill"
