@@ -60,6 +60,36 @@ const Nav = () => {
         </a>
         <div className="nav-social-links__line fade-in-image"></div>
       </div>
+      <div className="nav-mobile">
+        <div>
+          <Link
+            to="about"
+            className="nav__link fade-in-image"
+            smooth={true}
+            offset={-30}
+            duration={500}
+          >
+            About
+          </Link>
+          <Link
+            to="projects"
+            className="nav__link fade-in-image"
+            smooth={true}
+            offset={-30}
+            duration={500}
+          >
+            Projects
+          </Link>
+          <Link
+            to="contact"
+            className="nav__link fade-in-image"
+            smooth={true}
+            duration={500}
+          >
+            Contact
+          </Link>
+        </div>
+      </div>
     </>
   );
 };

@@ -9,12 +9,12 @@
   padding: 2rem 3rem;
   z-index: 999;
   background-color: #111;
-  &__lightmode {
-    color: rgb(172, 172, 172);
-    &:hover {
-      cursor: pointer;
-    }
-  }
+  // &__lightmode {
+  //   color: rgb(172, 172, 172);
+  //   &:hover {
+  //     cursor: pointer;
+  //   }
+  // }
   &__link {
     z-index: 99;
     color: rgb(172, 172, 172);
@@ -101,6 +101,25 @@
     width: 1px;
     background-color: #444;
     margin: 1rem 1.2rem;
+  }
+}
+@media screen and (max-width: 1089px) {
+  .nav-mobile {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .nav {
+    display: none;
+  }
+  .nav-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  .nav-social-links {
+    display: none;
   }
 }
 

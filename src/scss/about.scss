@@ -37,3 +37,15 @@
   display: flex;
   align-items: center;
 }
+@media screen and (max-width: 500px) {
+  .about {
+    margin-top: 0;
+    & p {
+      font-size: 1.3rem;
+      margin-bottom: 5.5rem;
+    }
+    &__section-skills {
+      font-size: 1rem;
+    }
+  }
+}

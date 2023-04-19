@@ -12,10 +12,12 @@ const About = () => {
           Hi, my name is Colin Stoutt, I&apos;m a self-motivated front-end
           developer who combines technical skills with a creative mindset.
           Before diving into tech, I spent 5 years in customer service where I
-          have honed my communication and team-building skills. I graduated from
-          General Assembly&apos;s Software Engineering Immersive program and
-          I&apos;m ready to use my skills and experience to make a real
-          difference in a new career path.
+          have honed my communication and team-building skills.
+        </p>
+        <p>
+          I graduated from General Assembly&apos;s Software Engineering
+          Immersive program and I&apos;m ready to use my skills and experience
+          to make a real difference in a new career path.
         </p>
       </section>
       <section className="about__section-skills">

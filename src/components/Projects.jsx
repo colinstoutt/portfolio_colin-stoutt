@@ -6,7 +6,7 @@ import LaunchRoundedIcon from "@mui/icons-material/LaunchRounded";
 const Projects = () => {
   return (
     <main className="projects container" id="projects">
-      <h1 className="heading">
+      <h1 className="projects__heading heading">
         Some things I built<div className="line"></div>
       </h1>
       <div className="projects__section-project">
@@ -17,6 +17,7 @@ const Projects = () => {
           A web app for keeping track of your rounds of golf. Create, edit, and
           view all of your rounds in one place to help track your progress.
         </p>
+
         <ul className="projects__section-project-tech">
           <li className="projects__section-project-tech">EJS</li>
           <li className="projects__section-project-tech">Express</li>
@@ -25,6 +26,7 @@ const Projects = () => {
           <li className="projects__section-project-tech">Sessions</li>
           <li className="projects__section-project-tech">Heroku</li>
         </ul>
+
         <div className="projects__section-project-links">
           <a href="https://github.com/colinstoutt/Golfers-Log">
             <CodeRoundedIcon style={{ fontSize: "1.2rem" }} />

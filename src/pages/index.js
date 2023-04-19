@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import Projects from "@/components/Projects";
 import About from "@/components/About";
 import Head from "next/head";
+import Footer from "@/components/Footer";
 
 export default function Index() {
   return (
@@ -17,6 +18,7 @@ export default function Index() {
       <About />
       <Projects />
       <Contact />
+      <Footer />
     </>
   );
 }
