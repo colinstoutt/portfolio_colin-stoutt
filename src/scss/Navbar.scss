@@ -113,10 +113,19 @@
     display: none;
   }
   .nav-mobile {
+    position: fixed;
+    top: 0;
+    right: 2rem;
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     margin-top: 2rem;
+
+    &__link {
+      &:hover {
+        color: white;
+      }
+    }
   }
   .nav-social-links {
     display: none;

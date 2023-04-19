@@ -1,8 +1,17 @@
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import MenuIcon from "@mui/icons-material/Menu";
+import CloseIcon from "@mui/icons-material/Close";
+import { useState } from "react";
 import { Link } from "react-scroll";
 
 const Nav = () => {
+  const [toggleMobileNav, setToggleMobileNav] = useState(false);
+
+  const handleToggle = () => {
+    setToggleMobileNav(!toggleMobileNav);
+  };
+
   return (
     <>
       <div className="nav">
@@ -61,34 +70,49 @@ const Nav = () => {
         <div className="nav-social-links__line fade-in-image"></div>
       </div>
       <div className="nav-mobile">
-        <div>
-          <Link
-            to="about"
-            className="nav__link fade-in-image"
-            smooth={true}
-            offset={-30}
-            duration={500}
-          >
-            About
-          </Link>
-          <Link
-            to="projects"
-            className="nav__link fade-in-image"
-            smooth={true}
-            offset={-30}
-            duration={500}
-          >
-            Projects
-          </Link>
-          <Link
-            to="contact"
-            className="nav__link fade-in-image"
-            smooth={true}
-            duration={500}
-          >
-            Contact
-          </Link>
-        </div>
+        {toggleMobileNav ? (
+          <div className="nav-mobile__active">
+            <Link
+              to="about"
+              className="nav__link fade-in-image"
+              smooth={true}
+              offset={-30}
+              duration={500}
+            >
+              About
+            </Link>
+            <Link
+              to="projects"
+              className="nav__link fade-in-image"
+              smooth={true}
+              offset={-30}
+              duration={500}
+            >
+              Projects
+            </Link>
+            <Link
+              to="contact"
+              className="nav__link fade-in-image"
+              smooth={true}
+              duration={500}
+            >
+              Contact
+            </Link>
+          </div>
+        ) : (
+          <></>
+        )}
+        {toggleMobileNav ? (
+          <CloseIcon
+            onClick={handleToggle}
+            sx={{ color: "white", fontSize: "2rem" }}
+          />
+        ) : (
+          <MenuIcon
+            onClick={handleToggle}
+            sx={{ color: "white", fontSize: "2rem" }}
+          />
+        )}
       </div>
     </>
   );
