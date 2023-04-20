@@ -25,10 +25,10 @@ const Hero = () => {
             className="mobile chevron"
             sx={{
               position: "absolute",
-              bottom: "1.5rem",
+              bottom: "2rem",
               left: "50%",
               transform: "translate(-50%, -50%)",
-              fontSize: "4rem",
+              fontSize: "3rem",
             }}
           />
         </Link>

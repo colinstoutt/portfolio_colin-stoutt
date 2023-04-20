@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <main className="projects container" id="projects">
       <h1 className="projects__heading heading">
-        Some things I built<div className="line"></div>
+        Featured Projects<div className="line"></div>
       </h1>
       <div className="projects__section-project">
         <h2 className="projects__section-project-title">
@@ -141,7 +141,7 @@ const Projects = () => {
         />
       </div>
       <div className="projects__section-project">
-        <h2 className="projects__section-project-title">Cookbook App</h2>
+        <h2 className="projects__section-project-title">Recipe Book</h2>
         <p className="projects__section-project-desc">
           NextJS-based React application that employs server-side rendering,
           utilizes Typescript, and adopts a mobile-first design philosophy for
