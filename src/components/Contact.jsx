@@ -10,8 +10,9 @@ const Contact = () => {
         Contact me<div className="line"></div>
       </h1>
       <p>
-        Have a question or suggestion? Click the link below or message me on
-        LinkedIn and I&apos;ll get back to you as soon as possible!
+        If you have any questions or suggestions, please feel free to click the
+        link below or send me a message on LinkedIn, and I will respond as
+        promptly as possible.
       </p>
       <div className="contact__btns">
         <a href="mailto: colin.stoutt22@gmail.com" className="contact__btn">
