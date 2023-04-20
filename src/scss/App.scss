@@ -82,6 +82,10 @@ video {
 .fade-in-image {
   animation: fadeIn 2s;
 }
+.mobile {
+  display: none;
+}
+
 @media screen and (min-width: 1089px) {
   html {
     min-width: 1089px;
@@ -90,5 +94,8 @@ video {
 @media screen and (max-width: 500px) {
   body {
     overflow-x: hidden;
+  }
+  .mobile {
+    display: block;
   }
 }
