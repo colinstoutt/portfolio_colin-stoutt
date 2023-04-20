@@ -9,7 +9,7 @@ const About = () => {
           A little about me<div className="line"></div>
         </h1>
         <p>
-          Hi, my name is Colin Stoutt, I&apos;m a self-motivated front-end
+          Hi, my name is Colin Stoutt, I&apos;m a self-motivated software
           developer who combines technical skills with a creative mindset.
           Before diving into tech, I spent 5 years in customer service where I
           have honed my communication and team-building skills.
