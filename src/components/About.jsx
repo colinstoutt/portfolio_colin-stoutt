@@ -110,7 +110,12 @@ const About = () => {
           >
             Django
           </span>
-
+          <span
+            className="about__section-skills-skill"
+            style={{ border: "2px solid #f40e00" }}
+          >
+            Adobe Creative Suite
+          </span>
           <span
             className="about__section-skills-skill"
             style={{ border: "2px solid lightgrey" }}
