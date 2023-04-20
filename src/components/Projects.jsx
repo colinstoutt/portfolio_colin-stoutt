@@ -105,8 +105,9 @@ const Projects = () => {
         </p>
         <ul className="projects__section-project-tech-mid">
           <li className="projects__section-project-tech-mid">React</li>
-          <li className="projects__section-project-tech-mid">Django</li>
-          <li className="projects__section-project-tech-mid">PostgreSQL</li>
+          <li className="projects__section-project-tech-mid">Express</li>
+          <li className="projects__section-project-tech-mid">MongoDB</li>
+          <li className="projects__section-project-tech-mid">Mongoose</li>
           <li className="projects__section-project-tech-mid">JWT</li>
         </ul>
         <div className="projects__section-project-links-mid">
