@@ -18,8 +18,8 @@ const About = () => {
           After completing four years at Washington State University studying
           communications and design, I furthered my education by graduating from
           General Assembly&apos;s Software Engineering Immersive program.
-          I&apos;m eager to use my skills and experience to make a real
-          difference in a new career.
+          I&apos;m eager to use my skills and experience to make a difference in
+          a new career.
         </p>
       </section>
       <section className="about__section-skills">
