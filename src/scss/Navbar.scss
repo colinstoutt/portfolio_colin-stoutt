@@ -17,8 +17,8 @@
   // }
   &__link {
     z-index: 99;
-    color: rgb(172, 172, 172);
-    font-size: 1.1rem;
+    color: lightgray;
+    font-size: 1.2rem;
     text-decoration: none;
     padding: 1rem 1rem;
     // box-shadow: rgba(39, 222, 174, 0.4) 0px 5px,
@@ -103,11 +103,15 @@
     margin: 1rem 1.2rem;
   }
 }
+.nav-mobile {
+  display: none;
+}
 @media screen and (max-width: 1089px) {
-  .nav-mobile {
+  .nav-social-links {
     display: none;
   }
 }
+
 @media screen and (max-width: 500px) {
   .nav {
     display: none;
@@ -115,11 +119,14 @@
   .nav-mobile {
     position: fixed;
     top: 0;
-    right: 2rem;
+    right: 0;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
-    margin-top: 2rem;
+    background-color: #111;
+    width: 100%;
+    padding: 2.2rem 0.5rem;
+    z-index: 999;
 
     &__link {
       &:hover {
