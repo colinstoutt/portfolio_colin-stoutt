@@ -23,7 +23,7 @@ const About = () => {
         </p>
       </section>
       <section className="about__section-skills">
-        <h1 className="about__section-skills-heading">Technology</h1>
+        <h1 className="about__section-skills-heading">Skills</h1>
 
         <div className="about__section-skills-container">
           <span

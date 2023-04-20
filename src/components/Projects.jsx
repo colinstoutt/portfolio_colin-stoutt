@@ -15,9 +15,8 @@ const Projects = () => {
         </h2>
         <div>
           <p className="projects__section-project-desc">
-            A web app for keeping track of your rounds of golf. Create, edit,
-            and view all of your rounds in one place to help track your
-            progress.
+            A web app for keeping track of rounds of golf. Create, edit, and
+            view all rounds in one place to help track progress.
             <Image
               src="https://i.imgur.com/kPy8oYi.png"
               className="mobile-img"
@@ -82,8 +81,9 @@ const Projects = () => {
       <div className="projects__section-project">
         <h2 className="projects__section-project-title">Team Manager</h2>
         <p className="projects__section-project-desc-mid">
-          A React app to help manage a sports team&apos;s players, recruits, and
-          game schedule. Includes authentication using Javascript Web Tokens.
+          A React application built to manage a sports team&apos;s players,
+          recruitment, and game schedule, with Javascript Web Tokens employed
+          for authentication purposes.
           <Image
             src="https://i.imgur.com/XJ1tgfy.png"
             className="mobile-img"
@@ -143,9 +143,9 @@ const Projects = () => {
       <div className="projects__section-project">
         <h2 className="projects__section-project-title">Cookbook App</h2>
         <p className="projects__section-project-desc">
-          I built this app with the main goal of learning more about NextJS,
-          server-side-rendering, Typescript, and styling with a mobile first
-          approach.
+          NextJS-based React application that employs server-side rendering,
+          utilizes Typescript, and adopts a mobile-first design philosophy for
+          styling.
           <Image
             src="https://i.imgur.com/2yQGxSN.png"
             className="mobile-img"
