@@ -13,10 +13,32 @@ const Projects = () => {
         <h2 className="projects__section-project-title">
           Digital Golf Scorecard
         </h2>
-        <p className="projects__section-project-desc">
-          A web app for keeping track of your rounds of golf. Create, edit, and
-          view all of your rounds in one place to help track your progress.
-        </p>
+        <div>
+          <p className="projects__section-project-desc">
+            A web app for keeping track of your rounds of golf. Create, edit,
+            and view all of your rounds in one place to help track your
+            progress.
+            <Image
+              src="https://i.imgur.com/kPy8oYi.png"
+              className="mobile-img"
+              alt="Golfers Log App"
+              width={560}
+              height={300}
+              unoptimized
+              style={{
+                marginLeft: "auto",
+                borderRadius: "5px",
+                minWidth: "16rem",
+                maxWidth: "1rem",
+                minHeight: "2rem",
+                maxHeight: "9rem",
+                marginTop: "1rem",
+                zIndex: "-1",
+                boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
+              }}
+            />
+          </p>
+        </div>
 
         <ul className="projects__section-project-tech">
           <li className="projects__section-project-tech">EJS</li>
@@ -46,7 +68,7 @@ const Projects = () => {
           unoptimized
           style={{
             position: "absolute",
-            borderRadius: "10px",
+            borderRadius: "5px",
             minWidth: "35rem",
             maxWidth: "10rem",
             opacity: "90%",
@@ -62,6 +84,24 @@ const Projects = () => {
         <p className="projects__section-project-desc-mid">
           A React app to help manage a sports team&apos;s players, recruits, and
           game schedule. Includes authentication using Javascript Web Tokens.
+          <Image
+            src="https://i.imgur.com/XJ1tgfy.png"
+            className="mobile-img"
+            alt="Golfers Log App"
+            width={560}
+            height={300}
+            unoptimized
+            style={{
+              borderRadius: "5px",
+              minWidth: "16rem",
+              maxWidth: "1rem",
+              minHeight: "2rem",
+              maxHeight: "9rem",
+              marginTop: "1rem",
+              zIndex: "-1",
+              boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
+            }}
+          />
         </p>
         <ul className="projects__section-project-tech-mid">
           <li className="projects__section-project-tech-mid">React</li>
@@ -88,7 +128,7 @@ const Projects = () => {
           unoptimized
           style={{
             position: "absolute",
-            borderRadius: "10px",
+            borderRadius: "5px",
             minWidth: "35rem",
             maxWidth: "10rem",
             opacity: "90%",
@@ -105,6 +145,26 @@ const Projects = () => {
           I built this app with the main goal of learning more about NextJS,
           server-side-rendering, Typescript, and styling with a mobile first
           approach.
+          <Image
+            src="https://i.imgur.com/2yQGxSN.png"
+            className="mobile-img"
+            alt="Golfers Log App"
+            width={560}
+            height={300}
+            unoptimized
+            style={{
+              marginLeft: "auto",
+
+              borderRadius: "5px",
+              minWidth: "16rem",
+              maxWidth: "1rem",
+              minHeight: "2rem",
+              maxHeight: "9rem",
+              marginTop: "1rem",
+              zIndex: "-1",
+              boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
+            }}
+          />
         </p>
         <ul className="projects__section-project-tech">
           <li className="projects__section-project-tech">NextJS</li>
@@ -131,7 +191,7 @@ const Projects = () => {
           unoptimized
           style={{
             position: "absolute",
-            borderRadius: "10px",
+            borderRadius: "5px",
             minWidth: "35rem",
             maxWidth: "10rem",
             opacity: "90%",
