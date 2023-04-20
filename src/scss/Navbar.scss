@@ -106,14 +106,12 @@
 .nav-mobile {
   display: none;
 }
+
 @media screen and (max-width: 1089px) {
-  .nav-social-links {
+  .nav {
     display: none;
   }
-}
-
-@media screen and (max-width: 500px) {
-  .nav {
+  .nav-social-links {
     display: none;
   }
   .nav-mobile {

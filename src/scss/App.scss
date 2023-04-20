@@ -51,7 +51,7 @@ video {
 
 .container {
   max-width: 950px;
-  margin: 10rem auto;
+  margin: 5rem auto;
   padding: 2rem 2.5rem;
 }
 .heading {
@@ -85,13 +85,15 @@ video {
 .mobile {
   display: none;
 }
+@media screen and (max-width: 1089px) {
+}
 
 @media screen and (min-width: 1089px) {
   html {
     min-width: 1089px;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1089px) {
   body {
     overflow-x: hidden;
   }

@@ -112,7 +112,7 @@ const About = () => {
           </span>
           <span
             className="about__section-skills-skill"
-            style={{ border: "2px solid #f40e00" }}
+            style={{ border: "2px solid #bc322b" }}
           >
             Adobe Creative Suite
           </span>
