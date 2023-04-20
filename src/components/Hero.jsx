@@ -22,13 +22,12 @@ const Hero = () => {
           duration={500}
         >
           <ExpandMoreRoundedIcon
-            className="mobile"
+            className="mobile chevron"
             sx={{
               position: "absolute",
               bottom: "1.5rem",
               left: "50%",
               transform: "translate(-50%, -50%)",
-              color: "lightgrey",
               fontSize: "4rem",
             }}
           />

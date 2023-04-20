@@ -90,3 +90,13 @@
     }
   }
 }
+.chevron {
+  color: #111;
+  cursor: none;
+}
+
+@media screen and (max-width: 700px) {
+  .chevron {
+    color: lightgray;
+  }
+}
