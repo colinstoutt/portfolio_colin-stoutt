@@ -17,20 +17,14 @@ const Projects = () => {
           <p className="projects__section-project-desc">
             A web app for keeping track of rounds of golf. Create, edit, and
             view all rounds in one place to help track progress.
-            <Image
+            <img
               src="https://i.imgur.com/kPy8oYi.png"
               className="mobile-img"
               alt="Golfers Log App"
-              width={560}
-              height={300}
-              unoptimized
               style={{
                 marginLeft: "auto",
                 borderRadius: "5px",
-                minWidth: "16rem",
-                maxWidth: "1rem",
-                minHeight: "2rem",
-                maxHeight: "9rem",
+                objectFit: "contain",
                 marginTop: "1rem",
                 zIndex: "-1",
                 boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
@@ -84,19 +78,14 @@ const Projects = () => {
           A React application built to manage a sports team&apos;s players,
           recruitment, and game schedule, with Javascript Web Tokens employed
           for authentication purposes.
-          <Image
+          <img
             src="https://i.imgur.com/XJ1tgfy.png"
             className="mobile-img"
-            alt="Golfers Log App"
-            width={560}
-            height={300}
-            unoptimized
+            alt="Team manager app"
             style={{
+              marginLeft: "auto",
               borderRadius: "5px",
-              minWidth: "16rem",
-              maxWidth: "1rem",
-              minHeight: "2rem",
-              maxHeight: "9rem",
+              objectFit: "contain",
               marginTop: "1rem",
               zIndex: "-1",
               boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
@@ -146,21 +135,14 @@ const Projects = () => {
           NextJS-based React application that employs server-side rendering,
           utilizes Typescript, and adopts a mobile-first design philosophy for
           styling.
-          <Image
+          <img
             src="https://i.imgur.com/2yQGxSN.png"
             className="mobile-img"
-            alt="Golfers Log App"
-            width={560}
-            height={300}
-            unoptimized
+            alt="Recipe book app"
             style={{
               marginLeft: "auto",
-
               borderRadius: "5px",
-              minWidth: "16rem",
-              maxWidth: "1rem",
-              minHeight: "2rem",
-              maxHeight: "9rem",
+              objectFit: "contain",
               marginTop: "1rem",
               zIndex: "-1",
               boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
