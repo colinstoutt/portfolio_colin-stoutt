@@ -46,7 +46,12 @@ const About = () => {
           >
             SCSS
           </span>
-
+          <span
+            className="about__section-skills-skill"
+            style={{ border: "1px solid #36b6f0" }}
+          >
+            Tailwind
+          </span>
           <span
             className="about__section-skills-skill"
             style={{ border: "1px solid #e9d54d" }}
