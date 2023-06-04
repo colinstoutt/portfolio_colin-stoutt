@@ -33,8 +33,12 @@ const ProjectCard = ({ title, desc, image, skills, live, github }) => {
       </div>
 
       <ul className="projects__section-project-tech">
-        {skills.map((skill) => {
-          return <li className="projects__section-project-tech">{skill}</li>;
+        {skills.map((skill, index) => {
+          return (
+            <li key={index} className="projects__section-project-tech">
+              {skill}
+            </li>
+          );
         })}
       </ul>
 

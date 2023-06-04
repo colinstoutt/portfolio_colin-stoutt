@@ -30,9 +30,11 @@ const ProjectCardReverse = ({ title, desc, image, skills, live, github }) => {
         />
       </p>
       <ul className="projects__section-project-tech-mid">
-        {skills.map((skill) => {
+        {skills.map((skill, index) => {
           return (
-            <li className="projects__section-project-tech-mid">{skill}</li>
+            <li key={index} className="projects__section-project-tech-mid">
+              {skill}
+            </li>
           );
         })}
       </ul>
