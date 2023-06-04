@@ -10,8 +10,9 @@ const ProjectCardReverse = ({ title, desc, image, skills, live, github }) => {
       <p className="projects__section-project-desc-mid">
         {desc}
         <Image
-          width={400}
-          height={210}
+          width={0}
+          height={0}
+          sizes="100vw"
           contain
           src={image}
           className="mobile-img"
@@ -23,6 +24,8 @@ const ProjectCardReverse = ({ title, desc, image, skills, live, github }) => {
             marginTop: "1rem",
             zIndex: "-1",
             boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
+            width: "100%",
+            height: "auto",
           }}
         />
       </p>
