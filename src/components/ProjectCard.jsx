@@ -13,7 +13,7 @@ const ProjectCard = ({ title, desc, image, skills, live, github }) => {
           <img
             src={image}
             className="mobile-img"
-            alt="Golfers Log App"
+            alt={title}
             style={{
               marginLeft: "auto",
               borderRadius: "5px",
@@ -45,7 +45,7 @@ const ProjectCard = ({ title, desc, image, skills, live, github }) => {
       <Image
         src={image}
         className="projects__section-project-image"
-        alt="Golfers Log App"
+        alt={title}
         width={560}
         height={300}
         unoptimized

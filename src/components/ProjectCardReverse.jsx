@@ -6,13 +6,13 @@ import LaunchRoundedIcon from "@mui/icons-material/LaunchRounded";
 const ProjectCardReverse = ({ title, desc, image, skills, live, github }) => {
   return (
     <div className="projects__section-project">
-      <h2 className="projects__section-project-title">{title}</h2>
+      <h2 className="projects__section-project-title-mid">{title}</h2>
       <p className="projects__section-project-desc-mid">
         {desc}
         <img
           src={image}
           className="mobile-img"
-          alt="Team manager app"
+          alt={title}
           style={{
             marginLeft: "auto",
             borderRadius: "5px",
@@ -43,20 +43,15 @@ const ProjectCardReverse = ({ title, desc, image, skills, live, github }) => {
       <Image
         src={image}
         className="projects__section-project-image-mid"
-        alt="Team Manager App"
+        alt={title}
         width={560}
         height={350}
         unoptimized
         style={{
-          position: "absolute",
           borderRadius: "5px",
           minWidth: "35rem",
           maxWidth: "10rem",
           opacity: "90%",
-          zIndex: "-1",
-          boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
-          right: "0",
-          top: "8.5rem",
         }}
       />
     </div>

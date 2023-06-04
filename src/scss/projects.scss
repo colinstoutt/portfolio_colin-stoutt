@@ -2,17 +2,18 @@
   .projects {
     &__section-project {
       position: relative;
-
-      &:nth-of-type(2) {
-        text-align: right;
-        padding: 8rem 0 8rem 0;
-      }
-
       &-title {
         color: white;
         font-size: 1.8rem;
         font-weight: 800;
         margin-top: 4rem;
+        &-mid {
+          text-align: right;
+          color: white;
+          font-size: 1.8rem;
+          font-weight: 800;
+          margin-top: 4rem;
+        }
       }
       &-desc {
         background-color: rgb(235, 235, 235);
@@ -59,7 +60,7 @@
           z-index: -1;
           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
           left: 0;
-          top: 8.5rem;
+          top: -3.5rem;
         }
       }
       &-tech {
@@ -145,7 +146,11 @@
       position: relative;
       &:nth-of-type(2) {
         text-align: right;
-        padding: 4rem 0 4rem 0;
+        padding: 0 0 2rem 0;
+      }
+      &:nth-of-type(4) {
+        text-align: right;
+        // padding: 2rem 0 2rem 0;
       }
 
       &-title {
@@ -262,5 +267,13 @@
   }
   .mobile-img {
     display: block;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .projects {
+    &__section-project {
+      margin: 10rem 0;
+    }
   }
 }
