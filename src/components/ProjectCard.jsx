@@ -10,7 +10,10 @@ const ProjectCard = ({ title, desc, image, skills, live, github }) => {
       <div>
         <p className="projects__section-project-desc">
           {desc}
-          <img
+          <Image
+            width={400}
+            height={210}
+            contain
             src={image}
             className="mobile-img"
             alt={title}

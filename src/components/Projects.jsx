@@ -39,8 +39,7 @@ const Projects = () => {
       <ProjectCardReverse
         title="Team Manager"
         desc="A React desktop application built to manage a sports team's players,
-        recruitment, and game schedule, with Javascript Web Tokens employed
-        for authentication purposes."
+        recruitment, and game schedule."
         image="https://i.imgur.com/XJ1tgfy.png"
         skills={["React", "Express", "Mongoose", "MongoDB"]}
         live="https://vermillion-khapse-53bfce.netlify.app/"

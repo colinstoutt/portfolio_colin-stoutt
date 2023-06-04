@@ -9,7 +9,10 @@ const ProjectCardReverse = ({ title, desc, image, skills, live, github }) => {
       <h2 className="projects__section-project-title-mid">{title}</h2>
       <p className="projects__section-project-desc-mid">
         {desc}
-        <img
+        <Image
+          width={400}
+          height={210}
+          contain
           src={image}
           className="mobile-img"
           alt={title}
