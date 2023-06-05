@@ -1,10 +1,14 @@
 .about {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
+  border-radius: 10px;
+  padding: 4rem;
   & p {
-    color: black;
+    color: #111;
     line-height: 1.5;
     letter-spacing: 1px;
     font-size: 1.5rem;
-    font-weight: 400;
+    font-weight: 300;
     margin: -4.5rem 0 5rem 0;
   }
   &__section-about {
@@ -20,11 +24,11 @@
     &-heading {
       font-size: 2rem;
       font-weight: 400;
-      color: black;
+      color: #111;
     }
     &-skill {
       font-size: 1rem;
-      color: black;
+      color: #111;
       font-weight: 400;
       padding: 0.6rem 1.5rem;
       margin: 0 0.5rem 0.5rem 0;
@@ -41,6 +45,10 @@
 @media screen and (max-width: 500px) {
   .about {
     margin-top: 0;
+    background-color: rgb(250, 250, 250);
+    box-shadow: none;
+    border-radius: 0;
+    padding: 3rem;
     & p {
       font-size: 1.4rem;
       margin-bottom: 5.5rem;

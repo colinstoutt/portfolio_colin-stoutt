@@ -16,7 +16,7 @@ const Nav = () => {
             className="nav__link "
             spy={true}
             smooth={true}
-            offset={-150}
+            offset={-115}
             duration={500}
           >
             About
@@ -26,7 +26,7 @@ const Nav = () => {
             className="nav__link "
             spy={true}
             smooth={true}
-            offset={-150}
+            offset={-100}
             duration={500}
           >
             Projects

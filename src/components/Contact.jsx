@@ -16,18 +16,18 @@ const Contact = () => {
       </p>
       <div className="contact__btns">
         <a href="mailto: colin.stoutt22@gmail.com" className="contact__btn">
-          <EmailRoundedIcon sx={{ color: "black", fontSize: "1rem" }} />
+          <EmailRoundedIcon sx={{ color: "#111", fontSize: "1rem" }} />
           <span>Email</span>
         </a>
         <a
           href="https://www.linkedin.com/in/colin-stoutt/"
           className="contact__btn"
         >
-          <LinkedInIcon sx={{ color: "black", fontSize: "1rem" }} />
+          <LinkedInIcon sx={{ color: "#111", fontSize: "1rem" }} />
           <span>LinkedIn</span>
         </a>
         <a href="https://github.com/colinstoutt" className="contact__btn">
-          <GitHubIcon sx={{ color: "black", fontSize: "1rem" }} />
+          <GitHubIcon sx={{ color: "#111", fontSize: "1rem" }} />
           <span>GitHub</span>
         </a>
       </div>
