@@ -11,7 +11,7 @@ const Projects = () => {
       </h1>
       <ProjectCard
         title="Soleseeker"
-        desc="Soleseeker is a front-end e-commerce website for sneaker enthusiasts, crafted using React with the payment infrastructure of Stripe."
+        desc="Soleseeker is a front-end e-commerce website for sneaker enthusiasts, crafted using React and Stripe."
         image="https://i.imgur.com/YVp8RFj.jpg"
         skills={["React", "Tailwind", "Stripe", "Express"]}
         live="https://soleseeker.vercel.app"
