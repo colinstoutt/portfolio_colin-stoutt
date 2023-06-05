@@ -28,108 +28,108 @@ const About = () => {
         <div className="about__section-skills-container">
           <span
             className="about__section-skills-skill"
-            style={{ border: "2px solid #ea6228" }}
+            style={{ border: "3px solid #ea6228" }}
           >
             HTML
           </span>
 
           <span
             className="about__section-skills-skill"
-            style={{ border: "2px solid #2762eb" }}
+            style={{ border: "3px solid #2762eb" }}
           >
             CSS
           </span>
 
           <span
             className="about__section-skills-skill"
-            style={{ border: "2px solid #c86396" }}
+            style={{ border: "3px solid #c86396" }}
           >
             SCSS
           </span>
           <span
             className="about__section-skills-skill"
-            style={{ border: "2px solid #36b6f0" }}
+            style={{ border: "3px solid #36b6f0" }}
           >
             Tailwind
           </span>
           <span
             className="about__section-skills-skill"
-            style={{ border: "2px solid #e9d54d" }}
+            style={{ border: "3px solid #e9d54d" }}
           >
             Javascript
           </span>
           <span
             className="about__section-skills-skill"
-            style={{ border: "2px solid #5dd0ef" }}
+            style={{ border: "3px solid #5dd0ef" }}
           >
             React
           </span>
           <span
             className="about__section-skills-skill"
-            style={{ border: "2px solid #2f75c0 " }}
+            style={{ border: "3px solid #2f75c0 " }}
           >
             Typescript
           </span>
           <span
             className="about__section-skills-skill"
-            style={{ border: "2px solid #3b78a8" }}
+            style={{ border: "3px solid #3b78a8" }}
           >
             Python
           </span>
           <span
             className="about__section-skills-skill"
-            style={{ border: "2px solid lightgrey" }}
+            style={{ border: "3px solid lightgrey" }}
           >
             NextJS
           </span>
           <span
             className="about__section-skills-skill"
-            style={{ border: "2px solid lightgrey" }}
+            style={{ border: "3px solid lightgrey" }}
           >
             Express
           </span>
 
           <span
             className="about__section-skills-skill"
-            style={{ border: "2px solid #46a93a" }}
+            style={{ border: "3px solid #46a93a" }}
           >
             MongoDB
           </span>
           <span
             className="about__section-skills-skill"
-            style={{ border: "2px solid #ac4343" }}
+            style={{ border: "3px solid #ac4343" }}
           >
             Mongoose
           </span>
 
           <span
             className="about__section-skills-skill"
-            style={{ border: "2px solid #31638d " }}
+            style={{ border: "3px solid #31638d " }}
           >
             PostgreSQL
           </span>
 
           <span
             className="about__section-skills-skill"
-            style={{ border: "2px solid #2aa474" }}
+            style={{ border: "3px solid #2aa474" }}
           >
             Django
           </span>
           <span
             className="about__section-skills-skill"
-            style={{ border: "2px solid #bc322b" }}
+            style={{ border: "3px solid #bc322b" }}
           >
             Adobe Creative Suite
           </span>
           <span
             className="about__section-skills-skill"
-            style={{ border: "2px solid lightgrey" }}
+            style={{ border: "3px solid lightgrey" }}
           >
             Git Version Control
           </span>
           <span
             className="about__section-skills-skill"
-            style={{ border: "2px solid lightgrey" }}
+            style={{ border: "3px solid lightgrey" }}
           >
             Github
           </span>

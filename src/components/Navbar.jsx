@@ -41,6 +41,16 @@ const Nav = () => {
           >
             Contact
           </Link>
+          {/* <Link
+            to="resume"
+            className="nav__link nav__link-resume"
+            spy={true}
+            smooth={true}
+            offset={-80}
+            duration={500}
+          >
+            Resume
+          </Link> */}
         </div>
       </div>
       <div className="nav-social-links ">
