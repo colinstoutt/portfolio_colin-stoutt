@@ -5,14 +5,14 @@
   padding: 3rem;
 
   &__heading {
-    color: white;
+    color: black;
     font-size: 2rem;
-    font-weight: 800;
+    font-weight: 400;
     margin-bottom: 2rem;
   }
 
   & p {
-    color: white;
+    color: black;
     font-size: 1.2rem;
     line-height: 1.5;
     font-weight: 300;
@@ -30,16 +30,16 @@
     align-items: center;
     text-decoration: none;
     padding: 0.5rem 1.5rem;
-    border: 1px solid rgba(211, 211, 211, 0.204);
+    border: 1px solid darkgray;
     border-radius: 5px;
     padding: 0.5rem 1rem;
     &:hover {
-      border: 1px solid rgb(211, 211, 211);
+      border: 1px solid black;
       cursor: pointer;
     }
 
     & span {
-      color: lightgrey;
+      color: black;
       margin-top: 0.3rem;
     }
   }
