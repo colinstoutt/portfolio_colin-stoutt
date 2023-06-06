@@ -2,6 +2,7 @@ import React from "react";
 import EmailRoundedIcon from "@mui/icons-material/EmailRounded";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import ArticleIcon from "@mui/icons-material/Article";
 
 const Contact = () => {
   return (
@@ -29,6 +30,13 @@ const Contact = () => {
         <a href="https://github.com/colinstoutt" className="contact__btn">
           <GitHubIcon sx={{ color: "#111", fontSize: "1rem" }} />
           <span>GitHub</span>
+        </a>
+        <a
+          href="https://docs.google.com/document/d/1bpFiwj-4ScZHgZ2Ap52begEtmb-oISMg/edit?usp=sharing&ouid=113765944755022717453&rtpof=true&sd=true"
+          className="contact__btn"
+        >
+          <ArticleIcon sx={{ color: "#111", fontSize: "1rem" }} />
+          <span>Resume</span>
         </a>
       </div>
     </main>
