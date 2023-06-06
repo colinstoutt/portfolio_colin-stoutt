@@ -23,7 +23,7 @@ const ProjectCardReverse = ({ title, desc, image, skills, live, github }) => {
             objectFit: "contain",
             marginTop: "1rem",
             zIndex: "-1",
-            boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
+
             width: "100%",
             height: "auto",
           }}

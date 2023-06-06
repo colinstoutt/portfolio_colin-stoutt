@@ -144,7 +144,6 @@
       }
       &:nth-of-type(4) {
         text-align: right;
-        // padding: 2rem 0 2rem 0;
       }
 
       &-title {
@@ -262,6 +261,7 @@
   }
   .mobile-img {
     display: block;
+    box-shadow: none;
   }
 }
 
