@@ -6,8 +6,8 @@ import LaunchRoundedIcon from "@mui/icons-material/LaunchRounded";
 const ProjectCardReverse = ({ title, desc, image, skills, live, github }) => {
   return (
     <div className="projects__section-project">
-      <h2 className="projects__section-project-title-mid">{title}</h2>
-      <p className="projects__section-project-desc-mid">
+      <h2 className="projects__section-project-title-reverse">{title}</h2>
+      <p className="projects__section-project-desc-reverse">
         {desc}
         <Image
           width={0}
@@ -29,16 +29,16 @@ const ProjectCardReverse = ({ title, desc, image, skills, live, github }) => {
           }}
         />
       </p>
-      <ul className="projects__section-project-tech-mid">
+      <ul className="projects__section-project-tech-reverse">
         {skills.map((skill, index) => {
           return (
-            <li key={index} className="projects__section-project-tech-mid">
+            <li key={index} className="projects__section-project-tech-reverse">
               {skill}
             </li>
           );
         })}
       </ul>
-      <div className="projects__section-project-links-mid">
+      <div className="projects__section-project-links-reverse">
         <a href={github}>
           <CodeRoundedIcon style={{ fontSize: "1.2rem" }} />
           <p>Code</p>
@@ -50,7 +50,7 @@ const ProjectCardReverse = ({ title, desc, image, skills, live, github }) => {
       </div>
       <Image
         src={image}
-        className="projects__section-project-image-mid"
+        className="projects__section-project-image-reverse"
         alt={title}
         width={560}
         height={350}

@@ -7,7 +7,7 @@
         font-size: 1.8rem;
         font-weight: 500;
         margin-top: 4rem;
-        &-mid {
+        &-reverse {
           text-align: right;
           color: #111;
           font-size: 1.8rem;
@@ -25,7 +25,7 @@
         font-size: 1.2rem;
         line-height: 1.2;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        &-mid {
+        &-reverse {
           background-color: white;
           padding: 1.5rem;
           border-radius: 5px;
@@ -47,7 +47,7 @@
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         right: 0;
         top: -2rem;
-        &-mid {
+        &-reverse {
           position: absolute;
           border-radius: 10px;
           min-width: 35rem;
@@ -65,7 +65,7 @@
         color: #111;
         font-weight: 300;
         margin: 0.5rem 0.8rem 0 0;
-        &-mid {
+        &-reverse {
           display: flex;
           justify-content: flex-end;
           flex-wrap: wrap;
@@ -79,7 +79,7 @@
         display: flex;
         gap: 1rem;
         margin-top: 1rem;
-        &-mid {
+        &-reverse {
           display: flex;
           gap: 1rem;
           margin-top: 1rem;
@@ -120,7 +120,7 @@
       &-links p {
         margin-top: 0.2rem;
       }
-      &-links-mid p {
+      &-links-reverse p {
         margin-top: 0.2rem;
       }
     }
@@ -153,7 +153,7 @@
         font-weight: 500;
         margin-top: 3rem;
 
-        &-mid {
+        &-reverse {
           color: #111;
           font-size: 1.8rem;
           font-weight: 500;
@@ -174,7 +174,7 @@
           border-radius: 5px;
         }
 
-        &-mid {
+        &-reverse {
           background-color: white;
           padding: 1.5rem;
           border-radius: 5px;
@@ -187,7 +187,7 @@
       }
       &-image {
         display: none;
-        &-mid {
+        &-reverse {
           display: none;
         }
       }
@@ -199,7 +199,7 @@
         font-weight: 300;
         font-size: 0.97rem;
         margin: 0.5rem 1rem 0 0;
-        &-mid {
+        &-reverse {
           display: flex;
           justify-content: flex-end;
           list-style: none;
@@ -214,7 +214,7 @@
         display: flex;
         gap: 1rem;
         margin-top: 1rem;
-        &-mid {
+        &-reverse {
           display: flex;
           gap: 1rem;
           margin-top: 1rem;
@@ -255,7 +255,7 @@
       &-links p {
         margin-top: 0.2rem;
       }
-      &-links-mid p {
+      &-links-reverse p {
         margin-top: 0.2rem;
       }
     }
