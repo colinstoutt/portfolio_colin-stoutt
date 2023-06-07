@@ -269,6 +269,9 @@
   .projects {
     &__section-project {
       margin: 10rem 0;
+      &:nth-of-type(1) {
+        margin: 8rem 0;
+      }
     }
   }
 }
