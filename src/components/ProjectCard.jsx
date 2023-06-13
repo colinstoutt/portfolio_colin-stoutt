@@ -11,6 +11,7 @@ const ProjectCard = ({ title, desc, image, skills, live, github }) => {
         <p className="projects__section-project-desc">
           {desc}
           <Image
+            priority
             width={0}
             height={0}
             sizes="100vw"
@@ -53,6 +54,7 @@ const ProjectCard = ({ title, desc, image, skills, live, github }) => {
         </a>
       </div>
       <Image
+        priority
         src={image}
         className="projects__section-project-image"
         alt={title}

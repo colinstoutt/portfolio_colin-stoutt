@@ -10,6 +10,7 @@ const ProjectCardReverse = ({ title, desc, image, skills, live, github }) => {
       <p className="projects__section-project-desc-reverse">
         {desc}
         <Image
+          priority
           width={0}
           height={0}
           sizes="100vw"
@@ -49,6 +50,7 @@ const ProjectCardReverse = ({ title, desc, image, skills, live, github }) => {
         </a>
       </div>
       <Image
+        priority
         src={image}
         className="projects__section-project-image-reverse"
         alt={title}
