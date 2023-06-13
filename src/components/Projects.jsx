@@ -27,6 +27,14 @@ const Projects = () => {
         github="https://github.com/colinstoutt/Golfers-Log"
       />
       <ProjectCard
+        title="Sleeper Draft Generator"
+        desc="A mobile-friendly fantasy football web application powered by Sleeper API and built with React. This tool simplifies draft order generation for drafts and rookie drafts. "
+        image="https://i.imgur.com/Dw0O9Vy.png"
+        skills={["React", "Sleeper API", "Tailwind"]}
+        live="https://www.sleeperdraftgenerator.com/"
+        github="https://github.com/colinstoutt/sleeper-draft-generator"
+      />
+      <ProjectCardReverse
         title="Recipe Book"
         desc="NextJS-based React application that employs server-side rendering,
         utilizes Typescript, and adopts a mobile-first design philosophy for
@@ -36,7 +44,7 @@ const Projects = () => {
         live="https://cookbook-application-demo.netlify.app/"
         github="https://github.com/colinstoutt/nextJs-ts-cookbook"
       />
-      <ProjectCardReverse
+      <ProjectCard
         title="Team Manager"
         desc="A React desktop application built to manage a sports team's players,
         recruitment, and game schedule."
