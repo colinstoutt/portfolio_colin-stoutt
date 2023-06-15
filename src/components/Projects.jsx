@@ -50,7 +50,7 @@ const Projects = () => {
         recruitment, and game schedule."
         image="https://i.imgur.com/XJ1tgfy.png"
         skills={["React", "Express", "Mongoose", "MongoDB"]}
-        live="https://vermillion-khapse-53bfce.netlify.app/"
+        live="https://team-manager-demo.vercel.app/"
         github="https://github.com/colinstoutt/team-manager"
       />
     </main>
